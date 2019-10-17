@@ -4,7 +4,11 @@
 //
 //  Created by Lohit Mahay on 2019-10-16.
 //  Copyright © 2019 Applications. All rights reserved.
-//
+//  author Name: lohit mahay
+// file name: shopping list
+// date: 16 october 2019
+// student id : 301093942
+
 
 import UIKit
 
