@@ -171,6 +171,9 @@
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="can:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ab4-Ic-oCT"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKp-DW-3l0">
                                 <rect key="frame" x="311" y="403" width="83" height="55"/>
@@ -194,6 +197,11 @@
                         <outlet property="stepper3" destination="xdP-DK-igU" id="dnW-b1-ViZ"/>
                         <outlet property="stepper4" destination="2aB-Kq-2G5" id="waK-Qr-rVf"/>
                         <outlet property="stepper5" destination="dGs-dP-ibI" id="ekm-9A-20A"/>
+                        <outlet property="text1" destination="fq1-pP-9C1" id="H2X-vd-a56"/>
+                        <outlet property="text2" destination="34j-tt-Ali" id="eZi-TI-73M"/>
+                        <outlet property="text3" destination="bap-EH-1nu" id="40F-En-LgB"/>
+                        <outlet property="text4" destination="xxF-ZR-WaS" id="4Xx-0j-IAR"/>
+                        <outlet property="text5" destination="dAl-Co-ZsC" id="YWa-SD-su0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

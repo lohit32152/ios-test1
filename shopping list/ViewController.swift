@@ -9,6 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var text1: UITextField!
+    @IBOutlet weak var text2: UITextField!
+    @IBOutlet weak var text3: UITextField!
+    @IBOutlet weak var text4: UITextField!
+    @IBOutlet weak var text5: UITextField!
+    
+  
+    
+    
+    
+    
+    
+    
     @IBOutlet weak var stepper1: UIStepper!
     @IBOutlet weak var label1: UILabel!
     @IBAction func stepper1a(_ sender: Any) {
@@ -33,6 +46,29 @@ class ViewController: UIViewController {
     @IBOutlet weak var label5: UILabel!
     @IBAction func stepper5a(_ sender: Any) {
         label5.text = String(stepper5.value)
+    }
+    @IBAction func cancel(_ sender: Any) {
+        
+    }
+    
+    @IBAction func can(_ sender: Any) {
+        
+        text1.text = ""
+        text2.text = ""
+        text3.text = ""
+        text4.text = ""
+        text5.text = ""
+        stepper1.value = 0
+        stepper2.value = 0
+        stepper3.value = 0
+        stepper4.value = 0
+        stepper5.value = 0
+        label1.text = "0"
+        label2.text = "0"
+        label3.text = "0"
+        label4.text = "0"
+        label5.text = "0"
+        
     }
     
    
